@@ -11,6 +11,8 @@ root.render(
   </React.StrictMode>
 );
 
+const port = process.env.PORT || 3000;
+App.listen(port,() => console.log(`Server running on port ${port}`));
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
