@@ -29,8 +29,8 @@ jobs:
       
       #zip the build directory
       - name: Zip Release
-          uses: TheDoctor0/zip-release@0.7.1
-          with:
+        uses: TheDoctor0/zip-release@0.7.1
+        with:
             filename: release.zip
             path: ./build/*
       
