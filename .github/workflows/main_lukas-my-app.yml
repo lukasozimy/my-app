@@ -60,4 +60,4 @@ jobs:
           app-name: 'lukas-my-app'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BEAC6CACB1AD484FB9DB1964FC0E0A5E }}
-          package: .
+          package: release.zip
